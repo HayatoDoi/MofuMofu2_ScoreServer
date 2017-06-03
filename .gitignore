@@ -1,0 +1,6 @@
+# インポートするライブラリ群
+/node_modules
+# npmのログ
+/npm-debug.log
+# データベースファイル
+/ScoreServer.sqlite3
