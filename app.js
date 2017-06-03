@@ -37,6 +37,6 @@ app.get('/',(req, res) => {
 // @portは設定に書いてある
 //------------------------------------------
 app.listen(SERVER.PORT, ()=>{
-	console.log("Server Listen... : http://localhost"+ SERVER.ROOT+":"+SERVER.PORT);
+	console.log("Server Listen... : http://localhost:"+ SERVER.PORT+SERVER.ROOT);
 });
 
